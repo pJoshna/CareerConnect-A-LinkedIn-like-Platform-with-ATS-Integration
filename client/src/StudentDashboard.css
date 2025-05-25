@@ -1,0 +1,84 @@
+/* StudentDashboard.css */
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f9faff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(100, 100, 255, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2, h3 {
+  color: #333366;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+  width: 100%;
+  padding: 8px 12px;
+  margin-bottom: 15px;
+  border: 1.5px solid #aaa;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="file"]:focus,
+textarea:focus {
+  outline: none;
+  border-color: #4455ff;
+  box-shadow: 0 0 8px rgba(68, 85, 255, 0.3);
+}
+
+button {
+  background-color: #4455ff;
+  color: white;
+  padding: 10px 22px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.25s ease;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #3344cc;
+}
+
+p {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background: white;
+  border-radius: 6px;
+  padding: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 5px rgba(0, 0, 50, 0.07);
+}
+
+strong {
+  color: #222266;
+}
+
+em {
+  color: #666688;
+  font-style: normal;
+  font-weight: 500;
+}

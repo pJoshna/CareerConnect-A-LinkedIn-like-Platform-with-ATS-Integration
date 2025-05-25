@@ -1,0 +1,65 @@
+.auth-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 40px;
+  border-radius: 20px;
+  background: #f3f1ff;
+  box-shadow: 10px 10px 20px #d1cfe2, -10px -10px 20px #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5e4b8b;
+}
+
+.auth-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-container input,
+.auth-container select {
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  background: #e8e6ff;
+  box-shadow: inset 4px 4px 6px #beb8d0, inset -4px -4px 6px #ffffff;
+}
+
+.auth-container button[type="submit"] {
+  padding: 12px;
+  background: #7c4dff;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 4px 4px 10px #b1a3e0, -4px -4px 10px #ffffff;
+}
+
+.auth-container button[type="submit"]:hover {
+  background: #5e35b1;
+}
+
+.auth-container p {
+  text-align: center;
+}
+
+.auth-container .switch-button {
+  color: #7c4dff;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.auth-container .message {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+}

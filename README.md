@@ -140,7 +140,7 @@ Fresh graduates often struggle to connect with genuine recruiters and real job o
 
 ## 🧑‍💻 Author
 
-**CareerConnect** was developed by [Your Name] as a full-stack capstone project to solve real-world job search challenges for freshers and recruiters.
+**CareerConnect** was developed by Joshna Palleboina as a full-stack capstone project to solve real-world job search challenges for freshers and recruiters.
 
 ---
 
